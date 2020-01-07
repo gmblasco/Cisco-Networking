@@ -1,0 +1,19 @@
+{
+  "Cisco-IOS-XE-native:native": {
+	"ip": {
+      "domain": {
+        "lookup-settings": {
+          "lookup": {
+            "source-interface": {
+              "Loopback": 100
+            }
+          }
+        }
+      },
+        "ssh": {
+        "source-interface": "Loopback100",
+        "version": 2
+      }  
+}
+}
+}

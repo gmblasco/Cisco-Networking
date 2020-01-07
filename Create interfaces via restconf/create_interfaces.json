@@ -1,0 +1,176 @@
+{
+  "Cisco-IOS-XE-native:GigabitEthernet": [
+      {
+        "name": "0/0/1.101",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 101
+          }
+         },
+        "description": "Desktop",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.4.61.252",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+      {
+        "name": "0/0/1.100",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 100
+          }
+         },
+        "description": "Gestion",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "192.168.61.252",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+      {
+        "name": "0/0/1.901",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 901
+          }
+         },
+        "description": "wifi24guest1",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.51.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+     {
+        "name": "0/0/1.902",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 902
+          }
+         },
+        "description": "wifi24guest2",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.52.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+       {
+        "name": "0/0/1.903",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 903
+          }
+         },
+        "description": "wifi54guest1",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.53.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+     {
+        "name": "0/0/1.904",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 904
+          }
+         },
+        "description": "wifi54guest2",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.54.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+      {
+        "name": "0/0/1.910",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 910
+          }
+         },
+        "description": "wlan_manager",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.59.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+      {
+        "name": "0/0/1.50",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 50
+          }
+         },
+        "description": "voice",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.40.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+      {
+        "name": "0/0/1.907",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 907
+          }
+         },
+        "description": "WLAN Aplicaciones",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.57.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      },
+      {
+        "name": "0/0/1.710",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 710
+          }
+         },
+        "description": "Control Acceso",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.80.61.254",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      }
+      
+    ]
+   
+  }

@@ -1,0 +1,21 @@
+{
+  "Cisco-IOS-XE-native:GigabitEthernet": [
+      {
+        "name": "0/0/1.101",
+        "encapsulation": {
+          "dot1Q": {
+            "vlan-id": 101
+          }
+         },
+        "description": "Desktop",
+        "ip": {
+          "address": {
+            "primary": {
+              "address": "10.4.61.252",
+              "mask": "255.255.255.0"
+            }
+          }
+        }
+      }
+	 ]
+	}
